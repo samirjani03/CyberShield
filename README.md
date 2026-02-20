@@ -11,28 +11,28 @@ A comprehensive cybersecurity toolkit with a web-based interface for analyzing f
 Open Command Prompt or PowerShell and run:
 
 ```
-cmd
+
 python -m venv .venv
 ```
 
 ### 2. Activate the Virtual Environment
 
 ```
-cmd
+
 .venv\Scripts\activate
 ```
 
 ### 3. Install Dependencies
 
 ```
-cmd
+
 pip install -r requirements.txt
 ```
 
 ### 4. Run the Application
 
 ```
-cmd
+
 python app.py
 ```
 
