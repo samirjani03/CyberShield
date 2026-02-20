@@ -2,6 +2,49 @@
 
 A comprehensive cybersecurity toolkit with a web-based interface for analyzing files, networks, memory, registry, URLs, and system vulnerabilities on Windows systems.
 
+> ⚠️ **Note:** This project is designed for **Windows only** and does not support Linux. Support for other operating systems may be added in the future.
+
+## 💻 Windows Setup Guide
+
+### 1. Create a Virtual Environment
+
+Open Command Prompt or PowerShell and run:
+
+```
+cmd
+python -m venv .venv
+```
+
+### 2. Activate the Virtual Environment
+
+```
+cmd
+.venv\Scripts\activate
+```
+
+### 3. Install Dependencies
+
+```
+cmd
+pip install -r requirements.txt
+```
+
+### 4. Run the Application
+
+```
+cmd
+python app.py
+```
+
+The application will start at `http://127.0.0.1:5000`
+
+### 5. Access the Web Interface
+
+Open your browser and navigate to:
+```
+http://127.0.0.1:5000
+```
+
 ## 📋 Project Overview
 
 CyberShield is a Flask-based web application that provides multiple security scanning and analysis tools. It combines various security utilities into a unified web interface for easy access and comprehensive system analysis.
